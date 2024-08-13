@@ -89,7 +89,7 @@ body
     background-image: url("./bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 95vh;
+    min-height: 95vh;
     display: flex;
     gap: 5px;
     flex-direction: column;
@@ -177,5 +177,22 @@ footer{
 }
 .main{
     min-height: 465px;
+    color: white;
+    font-size: large;
+    margin: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+h2
+{
+    color: black;
+    background-color: white;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: fit-content;
+    border-radius: 25px;
+    padding: 5px 20px;
+
+}
