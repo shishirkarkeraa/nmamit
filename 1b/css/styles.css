@@ -1,0 +1,58 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main
+{
+    min-height: 500px;
+    min-width: 800px;
+    width: 450px;
+    border: 2px solid black;
+}
+
+#header
+{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#logo
+{
+    max-height: 50px;
+    padding: 10px;
+}
+
+#ppico
+{
+    max-width: 125px;
+    padding: 25px;
+}
+
+.mainbody
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info
+{
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-wrap: wrap;
+    margin: 0%;
+}
+
+h2{
+    margin: 20px;
+}
+
+.infomain
+{
+    padding: 0px 50px;
+}

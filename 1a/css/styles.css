@@ -1,0 +1,177 @@
+.head{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+
+
+}
+
+img#logo
+{
+    width: auto;
+    height: 60px;
+}
+
+.logoholder
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.seperate
+{
+    height: 50px;
+    width: 2px;
+    background-color: white;
+    margin: 0px 50px;
+    
+
+}
+.navbutton
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+li {
+    color: white;
+}
+
+.headernav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.navoption{
+
+    font-size: large;
+    list-style-type: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 25px;
+    padding: 5px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.navoption li :hover{
+    background-color: white;
+    color: black;
+}
+
+body
+{
+    background-color: black;
+    background-image: url("./bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+}
+
+.info
+{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    gap: 2px;
+    width: 100%;
+    align-items: end;
+    padding: 0px 50px;
+
+}
+
+#InstituteName{
+    font-size: small;
+    margin: 0%;
+}
+
+.uni-info
+{
+    font-size: small;
+    padding: 0px;
+    margin: 0%;
+}
+
+img.sm-icon1{
+
+    height: 25px;
+    width: auto;
+}
+img.sm-icon2{
+
+    height: 25px;
+    width: auto;
+}
+img.sm-icon3{
+
+    height: 30px;
+    width: auto;
+}
+
+.social-media
+{
+    height: 80px;
+    min-width: 100%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footerinfo
+{
+    font-size: larger;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.footerpara
+{
+    margin: 0%;
+    padding: 0%;
+    font-size: small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.main{
+    min-height: 465px;
+}
