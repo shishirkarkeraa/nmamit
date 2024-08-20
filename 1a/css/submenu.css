@@ -1,23 +1,39 @@
-.submenu-content
-{
+/* Ensure the submenu content is positioned correctly and visible on hover */
+.sub-menu {
+    position: relative; /* Ensure the submenu is positioned relative to its parent */
+}
+
+.submenu-content {
     display: none;
     position: absolute;
     top: 100%;
-    left: 0%;
-    background-color: rgb(255, 255, 255);
-    color: white;
-    z-index: 1;
-
-    padding: 50px;
-}
-li
-{
-    list-style-type: none;
-
+    left: 0;
+    background-color: white;
+    color: black;
+    z-index: 1; 
+    padding: 10px 0; 
+    width: 200px;
+    border-radius: 5px;
 }
 
-.sub-menu:hover .submenu-content{
-
+.sub-menu:hover .submenu-content {
     display: block;
 }
 
+.submenu-content li {
+    list-style-type: none;
+    padding: 10px 20px; 
+    white-space: nowrap;
+}
+
+.submenu-content li a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, sans-serif; 
+    display: block; 
+}
+
+.submenu-content li a:hover {
+    background-color: #f0f0f0; 
+    color: black; 
+}
